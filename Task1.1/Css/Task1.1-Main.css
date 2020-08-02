@@ -119,3 +119,8 @@ body{
 .photos img{
     width: 350px;
 }
+.photos img:hover{
+    transform-origin:center center;
+    transform:scale(1.1,1.1);
+    border: 1px solid black;
+}
