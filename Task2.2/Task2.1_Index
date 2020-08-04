@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Webside</title>
+    <link rel="stylesheet" href="./CSS/Task-WabPage-Main.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.0.0/animate.min.css" />
+</head>
+
+<body id="mainBody">
+    <div>
+        <!-- navigationMenu -->
+        <div class="navigationMenu" id="navigationMenu">
+            <a href="./index.html">About</a>
+            <a href="./index.html">Work</a>
+            <a href="https://www.linkedin.com/in/haoxiong-hu-b146071b2/">Contact</a>
+        </div>
+        <!-- headerImage -->
+        <div class="headerImage">
+            <img src="https://tszroa.bn.files.1drv.com/y4mJPAEWvtz01IpayURwoSptB7GkfXLHomh23B8Z8LtJloHgC6AOgVHjX6LWYs-sdTkqJLyiCqfHUMN_y-sWBTsFXW0YWy1pwgx86IqDYInHvqeB5fam584P-rt9l8XShBuCTCccOed3A55cwH0iXQLI-opS8L0qn9kT1LFYIBIO1QMVdNTSwB5qUvgD4l-IHYeo5miH5CPmOJAKPnuxS8yrA?width=4000&height=1400&cropmode=none"
+                alt="database">
+            <div>
+                <div class="headerImage_Name animate__animated animate__fadeIn" id="animate_01">Hi! Welcome to my
+                    website.</div>
+                <div class="headerImage_Name animate__animated animate__fadeIn" id="animate_02">I am Lukas.</div>
+            </div>
+        </div>
+        <!-- Middle content -->
+        <div class="midContent" id="midContent">
+            <!-- myDescription -->
+            <div class="myDescription">
+                <img src="https://tyzroa.bn.files.1drv.com/y4mwHxROFrynIBw-dlXuN7Nz3DZ5aazt4nRaIPWlFjCGx90ItLjQaPh_9QP1xT-EUmFHSMeUCPkCV_oI58qQ_ZSOXIX62vH9nHPXwsOm3GZKq0z5bn4Ni8Aje1bLn9567EUuLwxyvg35p1T2cjjJpyG7R8UrDkTygs_V5DpNCrcYAPLnTduypjZhAvbwSkGMRt_siUtYHpdnGO9g1734nSfEw?width=390&height=567&cropmode=none"
+                    alt="myphoto">
+                <p> I am an IT student at Deakin university. </p>
+                <hr>
+            </div>
+            <!-- myProject -->
+            <div class="myProject">
+                <p>Here is what I have studied so far</p>
+                <div class="Projects">
+                    <img src="https://tizroa.bn.files.1drv.com/y4mtcqmBw7Cml5nEMVADZTYjfYElM4GzLwo4B8xYvBYlc9QIwAj4Ma982dUhUqstmugQoyZzT4EvWXp4ACfHwHaGfJyjyq28GCMFWBqfH42plYQxzmy-2tNQk2GAvTeWmei_JgU-67c2c6imiDyannOticbDgywxnKcDr521FWzyRWc99p6WWHsLVtO0LFzYeEvs9Ts9VAjub-fsh5mZdC6eA?width=6016&height=4016&cropmode=none"
+                        alt="database">
+                    <div>
+                        <span class="font30">Database </span> <br>
+                        <br>
+                        I have taken some course on SQLserver andMySQL.
+                    </div>
+                </div>
+                <div class="Projects">
+                    <img src="https://uczroa.bn.files.1drv.com/y4mQyOrkg5NQvjeh1i8B9yAsD5Txzlqih1Zxg9UVN16pM6Ylbwsabn0L0MDa-hT0idbtDIUVMEoUNK7LfwcJCxOVBuIzYNkM1l5mOjRXNgUGuZPe1Z6Hprlcm_X7DZGwr4h3ilFnTyyDrxFG8Z_DlJsQIPP3h9SxJ6IJmMBR2VYTClhREbMwM7dNEnYLqD3l8BCSsVbLtfYlN17PcylPX1l_g?width=5760&height=3840&cropmode=none"
+                        alt="programingLaguage">
+                    <div>
+                        <span class="font30">Programing Language</span><br>
+                        <br>
+                        I have experience in HTML, CSS, PHP, JavaScript...
+                    </div>
+                </div>
+                <hr>
+            </div>
+            <!-- imageGallery -->
+            <div class="imageGallery">
+                <p> My photos </p>
+                <div class="photos">
+                    <img src="https://erhmxg.bn.files.1drv.com/y4mpecZbGtJZNXNCmQzEXSLBXYe9X5R9qU_HkPNE4ZCjpc_x_DOwCB1NBo9dJMWOicBLf1mZER8talJZ955pXOwfBrE0pV-Nc2sb8d_rNETCqlKi22vv5No30D5E8MYUaheieP61P-fPWD3tBKOyIIe-z1s2rKWKKaHaUaVCw8gDzrnYo2vk93DSFr-2uZXhnLBSPz0ZCkXApXCE4n3--1UPg?width=1080&height=1440&cropmode=none"
+                        alt="SiguliangMountain,Sichuan,China">
+                    <img src="https://ilhmxg.bn.files.1drv.com/y4m0zraXs5z4ZiWcRzW3v6u01e0yqV6c8Sen56hc13avdFJXBC8HaTSoWt9qTL_-tQOxeJFF00JUP1j7xHd5pNasMLnpFGxuHeqnC6ySQmqWhxxhakBfXvBBPv9jTImR7sVTLGuYcXzrawaGaGPFaHRsGcp4DuIejvCZTCy5K6qHIE0h3lS820-G6usDhmCfLKBDhBwhdPkLF9Hg1BsnjgkLQ?width=1080&height=1440&cropmode=none"
+                        alt="TraditionalBuilding,Guizhou,China">
+                    <img src="https://ebhmxg.bn.files.1drv.com/y4mqM4rbEK3xgRqQjon6a-JAV2ZdxfsKbGO-UL0uD7U_nwn-wgP7MuSP7EonCPpFDHzWpE3BCxdROxYCqsCXo1dP5MvPrwh0MVZxkRj3qvplG7NeNX1JVjt2YA7192BK3lsNnpYlwchocmDknYEmWhvh2COgBLAdLCNr1bxNrA6yOdzsLBmQEXXJiouHrX7KgMSRw64psOfU9vcaw4h6tzhGw?width=1080&height=1440&cropmode=none"
+                        alt="QingchengMountain,Sichuan,China">
+                    <img src="https://tczroa.bn.files.1drv.com/y4muthJE4G7GSwoxNX7PtzCYmwAaoSGvqYHEGjkbhMKL7iJu9lwpI4PEBywqOpskZXatgkJp0G-y5P4Y_YZBAfhVH8BkClkVNZU-nqbEk8ID0gaNbujU3dIvpTAhNGFm_vbP-iOg_y0HXujd7F6MuCL4NBXqjA2g-_Q9zLMJIo1v2dByA6NDItdO9fxmrgF16hWB0aOKQ4ogpo5shb644m3LQ?width=1080&height=1440&cropmode=none"
+                        alt="TokyoTower,Tokyo,Japan">
+                </div>
+            </div>
+        </div>
+        <!-- ChangeColorButton -->
+        <div class="ChangeColorButton" id="ChangeColorButton">
+            You can cilck below button to change the background color. <br>
+            <button id="colorPicker"> Color Picker </button>
+        </div>
+    </div>
+</body>
+<script src="./Script/JavaScript.js"></script>
+<script>
+    // CSS_Animation
+    window.onload = function () {
+        const animate_01 = document.getElementById("animate_01");
+        const animate_02 = document.getElementById("animate_02");
+        animate_02.style.display = "none";
+    }
+    animate_01.addEventListener('animationend', () => {
+        if (animate_01.classList.contains("animate__fadeIn")) {
+
+            animate_01.classList.remove("animate__fadeIn");
+            animate_01.classList.add("animate__fadeOut");
+
+        } else if (animate_01.classList.contains("animate__fadeOut")) {
+            animate_01.style.display = "none";
+            animate_02.style.display = "block";
+        }
+    })
+</script>
+
+
+</html>
